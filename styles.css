@@ -307,15 +307,31 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
-.product-detail--card .clock {
+.product-detail--card .clock, .eye,
+                      .dolar, .check {
     display: inline-block;
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url("./assets/icons/clock.svg");
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.clock{
+    background-image: url("./assets/icons/clock.svg");
+}
+
+.eye {
+    background-image: url("./assets/icons/eye.svg");
+}
+
+.dolar {
+    background-image: url("./assets/icons/dollar-sign.svg");
+}
+
+.check {
+    background-image: url("./assets/icons/check-circle.svg");
 }
 
 .product--card-title {
