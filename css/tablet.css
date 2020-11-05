@@ -12,3 +12,14 @@
 .plans-container--slider {
     justify-content: center;
 }
+
+.bitcoin-img-container {
+    background-image: url("../assets/img/bitcoinbabytablet.png");
+}
+
+
+/* 
+- Cambiar la imagen dependiendo el formato, para mejor carga
+- Añadir la tabla de Comisiones
+- Corregir estilos
+*/
